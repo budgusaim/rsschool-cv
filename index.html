@@ -85,15 +85,16 @@
                         <h1 class="sidebar-item">Code example:</h1>
                     </div>
                     <div class="text">
-                        <p><pre><code>const dataReverse = function(data){
+                        <pre><code class="language-html">const dataReverse = function(data){
     if (data.length===0) return [];
     const arrayBytes = [];
     const tam = data.length / 8;
-    for (var i = 0; i < tam; i++){
+    for (var i = 0; i&lt;tam; i++){
         arrayBytes.push(data.splice(0,8));
     }
-    return arrayBytes.reverse().join().split(',').map(v=>v*1);
-}</code></pre></p>
+    return arrayBytes.reverse().join().split(',').map(v=&gt;v*1);
+}</code></pre>
+<p></p>
                     </div>
                 </div>
                 <div class="section projects" id="projects">
