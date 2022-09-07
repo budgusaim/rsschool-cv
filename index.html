@@ -84,7 +84,8 @@
                         <h1 class="sidebar-item">Code example:</h1>
                     </div>
                     <div class="text">
-                        <pre><code class="language-html">const dataReverse = function(data){
+                        <pre>
+<code class="language-html">const dataReverse = function(data){
     if (data.length===0) return [];
     const arrayBytes = [];
     const tam = data.length / 8;
@@ -92,8 +93,8 @@
         arrayBytes.push(data.splice(0,8));
     }
     return arrayBytes.reverse().join().split(',').map(v=&gt;v*1);
-}</code></pre>
-<p></p>
+}</code>
+                        </pre>
                     </div>
                 </div>
                 <div class="section projects" id="projects">
