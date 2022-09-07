@@ -1,0 +1,220 @@
+/* josefin-sans-regular - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./assets/fonts/josefin-sans-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/josefin-sans-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* josefin-sans-700 - latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('./assets/fonts/josefin-sans-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/josefin-sans-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 37, 54);
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-size: 24px;
+  font-family: 'Josefin Sans';
+  color: rgb(40, 37, 54);
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  min-height: 350px;
+  background-color: #a699e0;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .header-container {
+    min-height: 230px;
+  }
+}
+
+.header-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .header-photo {
+    min-height: 230px;
+  }
+}
+
+.my-foto {
+  border: 15px solid rgb(40, 37, 54);
+}
+
+.header-content {
+  width: 76%;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .header-content {
+    min-height: 230px;
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.nav-item {
+  margin-right: 28px;
+  
+}
+
+.nav-link {
+  line-height: 350%;
+  font-size: 25px;
+  color: rgb(40, 37, 54);
+  transition: color 0.3s;
+  /* border: 1px solid rgb(40, 37, 54);
+  border-radius: 10px; */
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    line-height: 150%;
+  }
+}
+
+.nav-link:hover {
+  color: rgb(120, 112, 157);;
+}
+
+.header-name {
+  display: flex;
+  flex-direction: column;
+  color: rgb(40, 37, 54);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-name {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.my-proffesion {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .header-name {
+    font-size: 52px;
+  }
+}
+
+.section {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  min-width: 24.15%;
+  justify-content: center;
+  color: bisque;
+  background-color: rgb(40, 37, 54);
+}
+
+.sidebar-item {
+  margin: 15px;
+}
+
+.text {
+  margin: 15px 0px 0px 35px;
+  border-bottom: 1px solid rgb(40, 37, 54);
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.momentum:hover {
+  color: rgb(120, 112, 157);
+}
+
+.footer-container {
+  display: flex;
+  min-height: 80px;
+  color: bisque;
+  background-color: rgb(40, 37, 54);
+}
+
+.footer-sidebar {
+  min-width: 24.15%;
+}
+
+.nav-footer {
+  min-width: 75%;
+}
+
+.nav-list-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+
+
